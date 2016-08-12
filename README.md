@@ -17,7 +17,7 @@ ANLanguageManager is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ANLanguageManager"
+pod 'ANLanguageManager', :git => 'https://github.com/antrix1989/ANLanguageManager.git'
 ```
 
 ## Author
