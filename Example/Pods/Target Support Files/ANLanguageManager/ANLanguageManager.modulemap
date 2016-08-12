@@ -1,0 +1,6 @@
+framework module ANLanguageManager {
+  umbrella header "ANLanguageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ANLanguageManager_Example' do
+  pod 'ANLanguageManager', :path => '../'
+
+  target 'ANLanguageManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

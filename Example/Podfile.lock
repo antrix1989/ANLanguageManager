@@ -1,0 +1,16 @@
+PODS:
+  - ANLanguageManager (0.1.0)
+
+DEPENDENCIES:
+  - ANLanguageManager (from `../`)
+
+EXTERNAL SOURCES:
+  ANLanguageManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANLanguageManager: 839b17440ff400ccd2d6e4d9599a60508b2793a7
+
+PODFILE CHECKSUM: 0d2b5f6902b8f777eb0d7f1f4ef14b18b5e143d2
+
+COCOAPODS: 1.0.1
