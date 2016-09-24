@@ -11,7 +11,9 @@
  Posted when language is changed.
  The object is the current language identifier.
  */
-extern NSString *const ANLanguageChangedNotification;
+extern NSString * const ANLanguageChangedNotification;
+
+extern NSString * ANLocalizedString(NSString *key);
 
 /**
  A singleton object that manages the localization.
@@ -38,8 +40,3 @@ extern NSString *const ANLanguageChangedNotification;
 - (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)comment;
 
 @end
-
-NSString * ANLocalizedString(NSString *key)
-{
-    return [[ANLanguageManager sharedInstance] localizedStringForKey:(key) value:@""];
-}

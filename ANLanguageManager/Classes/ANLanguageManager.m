@@ -7,7 +7,12 @@
 
 #import "ANLanguageManager.h"
 
-NSString *const ANLanguageChangedNotification = @"ANLanguageChangedNotification";
+NSString * const ANLanguageChangedNotification = @"ANLanguageChangedNotification";
+
+NSString * ANLocalizedString(NSString *key)
+{
+    return [[ANLanguageManager sharedInstance] localizedStringForKey:(key) value:@""];
+}
 
 @interface ANLanguageManager ()
 
